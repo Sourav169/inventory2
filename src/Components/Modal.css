@@ -1,0 +1,127 @@
+.modal-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 12%, 57%, 0.3);
+  
+    color: black;
+    font-size: 30px;
+    min-height: 100vh;
+    min-width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .modal-form .left{
+      float: left;
+      margin-left: 50px;
+  }
+  .modal-form .right{
+    float: right;
+    margin-right: 50px;;
+}
+  
+  .modal-container{
+    height: 300px;
+    width: 600px;
+    min-width: 600px;
+    min-height: 350px;
+    background-color: #F2F3F4 ;;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 5px 5px lightgrey;
+    padding: 10px;
+    margin-top: 100px;
+    overflow-y: hidden;
+  }
+  .form-group{
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+  }
+  .form-group.desc{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label{
+    height: 25px;
+    max-height: 25px;
+    min-height: 25px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 10px;
+  }
+  
+  .form-group input{
+    min-height: 30px;
+    min-width: 100%;
+    height: 30px;
+    width: 100%;
+  }
+  
+  
+  .form-group.desc textarea{
+    min-height: 70px;
+    min-width: 100%;
+    height: 75px;
+    width: 100%;
+  }
+  .close-btn{
+    height:30px;
+    min-height: 30px;
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .btn{
+      height: 40px;
+      background-color: #4CAF50;
+      width: 200px;
+      margin: 0 auto;
+  }
+  .addbtn{
+    height: 40px;
+    background-color: #4CAF50;
+    width: 200px;
+    margin: 0 auto;
+    margin-left: 580px;
+  }
+
+  .addcust{
+    height: 40px;
+    background-color: #4CAF50;
+    width: 200px;
+    margin-left: 900px;
+    margin-bottom: 20px;
+    margin-top: 0px ;
+    padding-top: 0%;
+  }
+
+  .search{
+    margin-left: 80px;
+    margin-bottom: 0px;
+  }
+  .search-input{
+    width: 700px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 1px solid black;
+  }
